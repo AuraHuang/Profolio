@@ -16,8 +16,9 @@ export interface ToggleSwitchProps {
 }
 
 export interface CardDetailProps {
-    name: string, 
-    src: string, 
+    title: string,
+    type?: string, 
+    src?: string, 
     img?: number,
     desc?: string[],
     setIsOpen?: () => void,
@@ -26,3 +27,4 @@ export interface CardDetailProps {
 export interface CardProps {
     data: CardDetailProps,
 }
+

@@ -20,12 +20,12 @@
     @apply flex items-center justify-center;
 }
 
-.flex-between {
-    @apply flex items-center justify-between;
-}
-
 .flex-center-col {
     @apply flex flex-col justify-center;
+}
+
+.flex-between {
+    @apply flex items-center justify-between;
 }
 
 .title {
@@ -41,4 +41,16 @@
 /* section styles */
 .info-dis {
     @apply flex items-center text-sm;
+}
+
+.card-style {
+    @apply  rounded border border-gray-200 shadow-md;
+}
+
+.border-bottom-style {
+    @apply border-b border-gray-200;
+}
+
+.border-left-style {
+    @apply border-l border-gray-200;
 }

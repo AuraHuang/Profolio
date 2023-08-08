@@ -19,7 +19,7 @@ const Collapse = ({title, value, isAllOpen}: OptionsProps) => {
 
   return (
     <div className='flex-1'>
-      <div className={`flex flex-between px-5 py-3 mb-3 rounded shadow-md bg-gray-100 ${isShow && 'cursor-pointer'}`} onClick={handleClick}>
+      <div className={`flex flex-between px-5 py-3 mb-3 card-style bg-gray-200 ${isShow && 'cursor-pointer'}`} onClick={handleClick}>
         <span>{ title }</span>
         {
           isShow && (
@@ -38,10 +38,10 @@ const Collapse = ({title, value, isAllOpen}: OptionsProps) => {
       { 
         isOpen && isShow ?
         (
-          <ul className=' text-sm rounded border transition-all delay-150 duration-300 before:h-0 after:h-full'>
+          <ul className=' text-sm  card-style transition-all delay-150 duration-300 before:h-0 after:h-full'>
             {
               value?.map((item) => (
-                <li key={item} className=' px-5 py-3 border-b'>{ item }</li>
+                <li key={item} className=' px-5 py-3 border-bottom-style'>{ item }</li>
               ))
             }
           </ul>

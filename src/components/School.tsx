@@ -1,13 +1,13 @@
 import React from 'react'
 import { CardDetail, SectionTitle } from '../subcomponents'
-import { work } from '../constants/data'
+import { school } from '../constants/data'
 
-const Work = () => {
+const School = () => {
   return (
     <div className=' pt-10'>
-        <SectionTitle title={"工作經歷"} />
+        <SectionTitle title={"學習經歷"} />
         {
-          work?.map((item, i) => (
+          school?.map((item, i) => (
             <CardDetail key={i} data={item} />
           ))
         }
@@ -15,4 +15,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default School

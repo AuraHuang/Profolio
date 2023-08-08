@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Skills from "./Skills";
 import Project from "./Project";
 import Work from "./Work";
+import School from "./School";
 
 export { 
     Header,
@@ -12,4 +13,5 @@ export {
     Skills,
     Project,
     Work,
+    School,
 }
