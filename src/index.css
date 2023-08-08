@@ -4,11 +4,7 @@
 
 * {
     /* border: 1px solid #000; */
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+    @apply relative p-0 m-0 box-border font-sans;
 }
 
 /* general styles */
@@ -28,4 +24,21 @@
     @apply flex items-center justify-between;
 }
 
-/*  */
+.flex-center-col {
+    @apply flex flex-col justify-center;
+}
+
+.title {
+    @apply text-xl font-semibold;
+}
+
+/* navbar styles */
+
+.nav-item {
+    @apply  py-4 mx-4 hover:border-b-4 cursor-pointer;
+}
+
+/* section styles */
+.info-dis {
+    @apply flex items-center text-sm;
+}
