@@ -11,6 +11,7 @@ export const skills = [
 export const projects = [
     { 
         title: "Profolio", 
+        link: "/",
         src: "/images/Profolio",
         img: 1,
         desc: [
@@ -21,6 +22,7 @@ export const projects = [
         ] },
     { 
         title: "BookingHotel", 
+        link: "/",
         src: "/images/BookingHotel",
         img: 8,
         desc: [
@@ -31,6 +33,7 @@ export const projects = [
         ] },
     { 
         title: "Car Showcase", 
+        link: "/",
         src: "/images/CarShowcase",
         img: 3,
         desc: [
@@ -41,6 +44,7 @@ export const projects = [
         ] },
     { 
         title: "Blog", 
+        link: "/",
         src: "/images/Blog",
         img: 4,
         desc: [
@@ -51,6 +55,7 @@ export const projects = [
         ] },
     { 
         title: "Todos", 
+        link: "/",
         src: "/images/Todos",
         img: 3,
         desc: [

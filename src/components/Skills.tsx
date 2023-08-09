@@ -6,7 +6,7 @@ const Skills = () => {
   const [isAllOpen, setIsAllOpen] = useState(true)
 
   return (
-    <div className='pt-10'>
+    <div id='skill' className='pt-10'>
         <SectionTitle title={"專業技能"}/>
         <ToggleSwitchBtn isAllOpen={isAllOpen} setIsAllOpen={() => setIsAllOpen(!isAllOpen)} />
         <div className='grid gap-5 md:grid-cols-2 lg:grid-cols-3'>

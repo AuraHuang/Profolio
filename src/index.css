@@ -4,7 +4,11 @@
 
 * {
     /* border: 1px solid #000; */
-    @apply relative p-0 m-0 box-border font-sans;
+    @apply relative p-0 m-0 box-border font-sans text-justify;
+}
+
+body {
+    @apply bg-white dark:bg-slate-800 dark:text-white;
 }
 
 /* general styles */
@@ -18,6 +22,10 @@
 
 .flex-center {
     @apply flex items-center justify-center;
+}
+
+.flex-center-row {
+    @apply flex items-center;
 }
 
 .flex-center-col {

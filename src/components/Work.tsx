@@ -4,7 +4,7 @@ import { work } from '../constants/data'
 
 const Work = () => {
   return (
-    <div className=' pt-10'>
+    <div id='experience' className=' pt-10'>
         <SectionTitle title={"工作經歷"} />
         {
           work?.map((item, i) => (

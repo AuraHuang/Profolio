@@ -1,3 +1,8 @@
+export interface NavItemProps {
+    title?: string,
+    scrollTo?: () => void,
+}
+
 export interface SectionTitleProps {
     title: string,
     sectionStyles?: string,
@@ -18,6 +23,7 @@ export interface ToggleSwitchProps {
 export interface CardDetailProps {
     title: string,
     type?: string, 
+    link?: string,
     src?: string, 
     img?: number,
     desc?: string[],

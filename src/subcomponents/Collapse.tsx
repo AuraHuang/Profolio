@@ -19,7 +19,7 @@ const Collapse = ({title, value, isAllOpen}: OptionsProps) => {
 
   return (
     <div className='flex-1'>
-      <div className={`flex flex-between px-5 py-3 mb-3 card-style bg-gray-200 ${isShow && 'cursor-pointer'}`} onClick={handleClick}>
+      <div className={`flex flex-between px-5 py-3 mb-5 card-style dark:text-black bg-gray-200 ${isShow && 'cursor-pointer'}`} onClick={handleClick}>
         <span>{ title }</span>
         {
           isShow && (

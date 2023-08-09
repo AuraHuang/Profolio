@@ -1,8 +1,9 @@
-import Collapse from "../subcomponents/Collapse";
-import SectionTitle from "../subcomponents/SectionTitle";
+import Collapse from "./Collapse";
+import SectionTitle from "./SectionTitle";
 import ToggleSwitchBtn from "./ToggleSwitchBtn";
 import CardDetail from "./CardDetail";
 import ImgSlider from "./ImgSlider";
+import NavItem from "./NavItem";
 
 export {
     Collapse,
@@ -10,4 +11,5 @@ export {
     ToggleSwitchBtn,
     CardDetail,
     ImgSlider,
+    NavItem,
 }
