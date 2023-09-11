@@ -28,7 +28,7 @@ const Header = () => {
         </div>
       </div>
       <div className=' flex-center-col py-5 md:px-5 border-t md:border-none border-white leading-7'>
-        過去為富邦證PM，熱愛學習新事物，勇於跳脫舒適圈，接觸到程式後，享受Coding過程及成果產出後的成就感，自學提升技能並應用於工作中，減少部門人工作業提高效率，目前積極學習前端技術，目標成為前端工程師。
+      前份工作任職於富邦證擔任商品PM，熱愛學習新事物，勇於跳脫舒適圈，自學程式應用於工作中，如進行數據分析、輔助部門減少人工作業提高效率，享受Coding過程及成果產出後的成就感，目前積極精進前端技術，目標成為前端工程師
       </div>
     </header>
   )
