@@ -18,7 +18,7 @@ export const projects = [
             "以React.js + TypeScript開發前端網站，UI框架則使用Tailwind", 
             "可根據使用者瀏覽器設定切換為深/淺色模式", 
             "作品集照片點開可左右切換瀏覽其他作品集圖片", 
-            "使用技術: React.js、React Hooks、Tailwind"
+            "使用技術: React.js、Tailwind"
         ] },
     { 
         title: "Hotel Booking Web", 
@@ -39,7 +39,7 @@ export const projects = [
             "以Next.js+TypeScript開發，Tailwind設計UI，資料串接RapidAPI", 
             "可輸入汽車品牌或型號搜尋，並且可篩選汽車燃料類型及年份", 
             "點擊汽車View More可觀看汽車照片及具體汽車規格", 
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam sapiente cumque, voluptates non provident. Quia eum aliquid ex doloremque assumenda laboriosam soluta, repellat qui id eos debitis dolor eveniet使用技術: Next.js、TypeScript、Tailwind"
+            "使用技術: Next.js、TypeScript、Tailwind"
         ] }
 ]
 

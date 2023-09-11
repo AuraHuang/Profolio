@@ -10,7 +10,7 @@ const CardDetail = ({data}: CardProps) => {
   return (
     <>
       <div className={` flex-center flex-col lg:flex-row mb-5 card-style ${type === "row"? "" : "lg:px-5"}`}>
-        <div className={` w-full rounded overflow-hidden lg:w-[40%] cursor-pointer shadow-lg ${src? "" : "hidden"}`} onClick={() => setIsOpen(true)}>
+        <div className={` w-full p-5 rounded overflow-hidden lg:w-[40%] cursor-pointer shadow-lg ${src? "" : "hidden"}`} onClick={() => setIsOpen(true)}>
           <img 
             src={ `${ src }/1.png` } 
             alt={ title }
@@ -21,7 +21,7 @@ const CardDetail = ({data}: CardProps) => {
             <span className={`${type === "row"? "" : "mr-3"}`}>{ title }</span>
             {
               link &&
-              <a href={link} className=' duration-300 hover:text-slate-500' ><MdOutlineLink /></a>
+              <a href={link} target='blank' className=' duration-300 hover:text-slate-500' ><MdOutlineLink /></a>
             }
           </div>
           <ul className={` text-sm leading-6 list-disc p-5 ${type === "row"? "pl-9 md:border-l" : "ms-4"}`}>
