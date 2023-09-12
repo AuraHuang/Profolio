@@ -22,7 +22,7 @@ export const projects = [
         ] },
     { 
         title: "Hotel Booking Web", 
-        link: "https://booking-web-khaki.vercel.app/",
+        link: "https://hotel-booking-web-gold.vercel.app/",
         src: "/images/BookingHotel",
         img: 8,
         desc: [
