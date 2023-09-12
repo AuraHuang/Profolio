@@ -15,15 +15,21 @@ const Header = () => {
           <div className='title mb-3'>聯絡資訊</div>
           <div className='flex items-center mb-1'>
             <BsPhone />
-            <span className=' ml-2'>(+886) 963720990</span>
+            <span className=' ml-2'>
+              <a href = "tel:(+886) 963720990">(+886) 963720990</a>
+            </span>
           </div>
           <div className='flex items-center mb-1'>
             <HiOutlineMail />
-            <span className=' ml-2'>aurahuang1996@gmail.com</span>
+            <span className=' ml-2'>
+              <a href = "mailto: aurahuang1996@gmail.com">aurahuang1996@gmail.com</a>
+            </span>
           </div>
           <div className='flex items-center mb-1'>
             <BsGithub />
-            <span className=' ml-2'>https://github.com/AuraHuang/</span>
+            <span className=' ml-2'>
+              <a href="https://github.com/AuraHuang" target='blank'>https://github.com/AuraHuang/</a>
+            </span>
           </div>
         </div>
       </div>
