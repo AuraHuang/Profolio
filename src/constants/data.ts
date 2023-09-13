@@ -26,7 +26,7 @@ export const projects = [
         src: "/images/BookingHotel",
         img: 8,
         desc: [
-            "以Mern進行全端開發，前端以Vite.js搭配SCSS，後端使用Node.js + Express.js + MongoDB", 
+            "以MERN進行全端開發，前端以Vite.js搭配SCSS，後端使用Node.js + Express.js + MongoDB", 
             "可設定地點/日期/人數查詢上有空房的飯店，並在登入的狀態下進行訂房", 
             "使用技術: Vite.js、SCSS、Node.js、Express.js"
         ] },
