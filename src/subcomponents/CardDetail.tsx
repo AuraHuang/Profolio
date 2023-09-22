@@ -21,7 +21,7 @@ const CardDetail = ({data}: CardProps) => {
             <span className={`${type === "row"? "" : "mr-3"}`}>{ title }</span>
             {
               link &&
-              <a href={link} target='blank' className=' duration-300 hover:text-slate-500' ><MdOutlineLink /></a>
+              <a href={link} target="_blank" rel="noreferrer" className=' duration-300 hover:text-slate-500' ><MdOutlineLink /></a>
             }
           </div>
           <ul className={` text-sm leading-6 list-disc p-5 ${type === "row"? "pl-9 md:border-l" : "ms-4"}`}>
